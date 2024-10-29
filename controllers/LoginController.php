@@ -10,6 +10,7 @@ class LoginController {
         //echo "Desde Login...";
 
         $router->render('auth/login');
+        //$router->render('layout');
 
     }
 
