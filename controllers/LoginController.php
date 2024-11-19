@@ -18,7 +18,7 @@ class LoginController {
         echo "Desde Logout...";
     }
 
-    public static function olvide(Router $router){//class Router y instancia $router 
+    public static function olvide(Router $router){//class Router y instancia $router  
         //echo "Desde Olvide...";
 
         $router->render('auth/olvide-password', [
