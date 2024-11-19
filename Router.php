@@ -61,12 +61,12 @@ class Router {
         include_once __DIR__ . '/views/layout.php';
         */
 
+        
         // entonces incluimos la vista en el layout
         $contenido = ob_get_clean(); // Limpia el Buffer
         include_once __DIR__ . '/views/layout_part1.php';
         include_once __DIR__ . "/views/$view.php";
         include_once __DIR__ . '/views/layout_part2.php';
-
-
+        
     }
 }
