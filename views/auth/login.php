@@ -1,8 +1,11 @@
-<h1 class="nombre-pagina">Login aqui</h1>
+<h1 class="nombre-pagina">Login</h1>
 <p class="descripcion-pagina">Inicia sesión con tus datos</p>
 
 
 <?php 
+
+//echo"<p>zzzzzzzz---desde views/auth/login.php</p>";
+
 exit;
 
 
