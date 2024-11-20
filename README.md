@@ -18,17 +18,19 @@ npm uninstall -g sass
 npm install -g sass@1.80.0
 
 
-# abrir 3 terminales: 
-
+# ABRIR 3 TERMINALES:
 # en el 1 lanzar: (estando en './public' para que se abra 'public/index.php')
 php -S localhost:3000
 
-# en el 2 lanzar:
+# en el 2 (ESTANDO EN LA RAIZ) lanzar:
 npm run dev
 
-# en el 3 lanzar:
+# en el 3 (ESTANDO EN LA RAIZ) lanzar:
 git commit ... y git push...
 
+
+# para el servicio de 'php -S ...'
+control + c
 
 
 
